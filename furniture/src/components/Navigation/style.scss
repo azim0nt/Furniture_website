@@ -11,14 +11,28 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        .left{
+            a{
+                text-decoration: none;
+            }
+        }
         .middle{
            display: flex;
            justify-content: center;
            align-items: center;
-           p{
-               padding: 0 10px;
-
+           .active{
+            font-weight: 900;
            }
+           a{
+                text-decoration: none;
+                padding: 0 10px;
+           }
+        }
+        .right{
+            svg{
+                margin: 0 10px;
+               cursor: pointer;
+            }
         }
     }
 }
