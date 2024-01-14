@@ -4,10 +4,12 @@ import { Outlet, Link } from 'react-router-dom'
 
 function Navigation() {
     return (
+        <>
         <div className="nav-wrapper">
             <div className="nav">
                 <div className="left"><h3>Logo</h3></div>
                 <div className="middle">
+                    
                     <p>Home</p>
                     <p>Product</p>
                     <p>Catagory</p>
@@ -27,6 +29,8 @@ function Navigation() {
                 </div>
             </div>
         </div>
+        <Outlet/>
+        </>
     );
 }
 
