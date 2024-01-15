@@ -1,1 +1,7 @@
 @import './assets/styles/settings';
+
+
+.red-btn{
+    @extend %red-btn;
+    
+}

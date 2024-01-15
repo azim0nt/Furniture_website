@@ -1,8 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 $black:#000;
+$black-3:#333;
+$brown:#B62A2B;
+$white:#fff;
 
 
+%red-btn{
+    background-color: $brown;
+    color: $white;
+}
+
+button{
+    border: none;
+    outline: none;
+    padding: 20px 40px;
+    font-size: 16px;
+    font-weight: 900;
+    border-radius: 10px;
+    &:active{
+        transform: scale(0.8);
+    }
+}
 *{
     margin: 0;
     padding: 0;
