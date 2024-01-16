@@ -1,11 +1,13 @@
 import './style.scss'
 import CarouselComponent from '../common/CarouselComponent/CarouselComponent.jsx'
+import Advantages from '../Advantages/index.jsx'
 import SofaImg_1 from '../../assets/images/11.jpg'
 import SofaImg_2 from '../../assets/images/22.jpg'
 import SofaImg_3 from '../../assets/images/33.jpg'
 function Home() {
     const images = [SofaImg_1, SofaImg_2, SofaImg_3]
     return (
+        <>
         <div className="home-wrapper">
             <CarouselComponent images={images} blurred>
             <div className="text-wrapper">
@@ -28,7 +30,9 @@ function Home() {
                     </div>
                 </div>
                 </CarouselComponent>
+                <Advantages/>
         </div>
+        </>
     );
 }
 

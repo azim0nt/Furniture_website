@@ -1,0 +1,45 @@
+@import '../../assets/styles/settings';
+
+
+.advantages-wrapper {
+    padding: 100px 50px;
+
+    .advantages {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+
+        .left {
+            #title {
+                font-size: $large-size;
+                font-weight: 900;
+
+                span {
+                    color: $brown;
+                }
+            }
+
+            #desc {
+                color: #333;
+            }
+        }
+
+        .right {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            justify-content: center;
+            align-items: center;
+
+            .card {
+                width: 200px;
+                height: 200px;
+                background-color: $gray;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                font-weight: 900;
+                
+            }
+        }
+    }
+}
