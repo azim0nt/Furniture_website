@@ -4,6 +4,8 @@ import Advantages from '../Advantages/index.jsx'
 import SofaImg_1 from '../../assets/images/11.jpg'
 import SofaImg_2 from '../../assets/images/22.jpg'
 import SofaImg_3 from '../../assets/images/33.jpg'
+import Arrivals from '../Arrivals/index.jsx'
+import PopularProducts from '../PopularProducts'
 function Home() {
     const images = [SofaImg_1, SofaImg_2, SofaImg_3]
     return (
@@ -31,6 +33,8 @@ function Home() {
                 </div>
                 </CarouselComponent>
                 <Advantages/>
+                <Arrivals/>
+                <PopularProducts/>
         </div>
         </>
     );

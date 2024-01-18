@@ -1,0 +1,31 @@
+@import '../../assets/styles/settings';
+
+.arrivals-wrapper{
+    padding: 100px 0;
+    #title{
+        text-align: center;
+        padding: 100px;
+        font-size: 60px;
+    }
+    .card{
+        background-color: $light-gray;
+        border-radius: 15px;
+        width: 500px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        .bottom{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 100px;
+            padding-bottom: 20px;
+            #price{
+                color: $brown;
+                font-weight: 700;
+            }
+        }
+    }
+}
