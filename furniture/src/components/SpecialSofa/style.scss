@@ -1,0 +1,54 @@
+@import '../../assets/styles/settings';
+
+
+
+.special-sofa-wrapper{
+    background-color: $light-gray;
+    width: 100%;
+    height: 100vh;
+   
+    position: relative;
+    .special-sofa{
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 2fr 1.5fr;
+        .right{
+            padding: 50px 50px;
+            #title{
+                font-size: 50px;
+                font-weight: 900;
+                span{
+                    color: $brown;
+                }
+                margin-bottom: 50px ;
+            }
+            #line{
+                width: 80%;
+                text-align: center;
+                height: 5px;
+                background-color: $black;
+            }
+            .red-btn{
+                margin: 200px 0;
+            }
+        }
+    }
+    .up-to-50{
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin: 300px 50px;
+        width: 150px;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        background-color: $white;
+        border-radius: 50%;
+        border: 10px solid $black;
+        color: #ff0000;
+        font-weight: 900;
+        font-size: large;
+    }
+}
