@@ -1,2 +1,1 @@
 # Furniture_website
-lorem
